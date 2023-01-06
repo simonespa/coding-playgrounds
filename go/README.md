@@ -1,5 +1,4 @@
 # Go
 
-## Getting Started
-
-Read https://go.dev/learn/
+- [Homepage](https://go.dev)
+- [Getting Started](https://go.dev/learn)

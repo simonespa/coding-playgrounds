@@ -1,8 +1,7 @@
 # Rust
 
-## Getting Started
-
-Read https://www.rust-lang.org/learn/get-started
+- [Homepage](https://www.rust-lang.org)
+- [Getting Started](https://www.rust-lang.org/learn/get-started)
 
 ```
 Welcome to Rust!
