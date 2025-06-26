@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Wasm</title>
+  </head>
+  <body>
+    <script type="module">
+      import init, { greet, fibonacci } from "./pkg/hello_wasm.js";
+
+      init().then(() => {
+        const result = fibonacci(50);
+        console.log(`Fibonacci of 50 is: ${result}`);
+      }).catch(err => {
+        console.error("Error initializing WebAssembly:", err);
+      });
+    </script>
+  </body>
+</html>
