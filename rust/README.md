@@ -3,6 +3,14 @@
 - [Homepage](https://www.rust-lang.org)
 - [Getting Started](https://www.rust-lang.org/learn/get-started)
 
+Run:
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+and got
+
 ```
 Welcome to Rust!
 
@@ -31,7 +39,6 @@ This path will then be added to your PATH environment variable by
 modifying the profile files located at:
 
   /Users/spaccs01/.profile
-  /Users/spaccs01/.bash_profile
   /Users/spaccs01/.zshenv
 
 You can uninstall at any time with rustup self uninstall and
@@ -40,7 +47,7 @@ these changes will be reverted.
 Current installation options:
 
 
-   default host triple: x86_64-apple-darwin
+   default host triple: aarch64-apple-darwin
      default toolchain: stable (default)
                profile: default
   modify PATH variable: yes
