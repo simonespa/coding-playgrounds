@@ -6,4 +6,8 @@ fn main() {
   let z = tup.2;
 
   println!("The values are {x}, {y} and {z}");
+  println!("The tuple is: {:?}", tup);
+
+  println!("One element tuple: {:?}", (5,));
+  println!("Just an integer: {:?}", (5));
 }
